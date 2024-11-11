@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <script src="script.js"></script>
+  
+  <title>Auth tag</title>
+</head>
+<body>
+  <div>
+    Signup
+    <input id="signup-username" type="text" name ="Username" placeholder="username">
+    <input id="signup-password" type="password" name="password" placeholder="password">
+    <button onclick="signup()">Submit</button>
+  </div>
+  <div>
+    Signin
+    <input id="signin-username" type="text" name="username" placeholder="username">
+    <input id="signin-password" type="password" name="password" placeholder="password">
+    <button onclick="signin()" >Submit</button>
+  </div>
+  <div>
+    User information:
+    <div id="information">
+  </div>
+  <div>
+    <button onclick="logout()">Logout</button>
+  </div>
+  
+</body>
+</html>
